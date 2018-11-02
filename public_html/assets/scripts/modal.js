@@ -1,0 +1,13 @@
+$(document).ready(function(){
+	$(".modal-close").click(function(e){
+		$(this).parents(".modal").hide();
+	});
+	$(".modal-allow-close").click(function(e){
+		if($(e.target).is(".modal")){
+		$(this).hide();
+		}
+	});
+	$(".modal-click").click(function(){
+		$(".modal-id-"+$(this).attr("data-id")+"").show();
+	});
+});

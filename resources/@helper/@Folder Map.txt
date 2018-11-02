@@ -1,0 +1,14 @@
+##### Danh sách thư mục
+
+
+/_helper:   Tài liệu hướng dẫn
+
+/classes:   Chứa các file class
+
+/functions: Chứa các file function
+
+/layouts:   Chứa các file bố cục dùng cho nhiều nơi
+
+/pages:     Chứa mã nguồn của từng trang
+
+/system:    Thư mục hệ thống
